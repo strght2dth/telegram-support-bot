@@ -11,7 +11,7 @@ allow_private: false # Allow / disallow option for staff to chat privately
 direct_reply: false # Set this to true to just forward staff users to a user chat when allow_private
 auto_close_tickets: false # Close tickets after answering
 anonymous_tickets: false # Include userid in tickets or not
-anonymous_replies: true # Include staff member name in response
+anonymous_replies: false # Include staff member name in response
 show_auto_replied: true # Send auto replied msgs to staff chat
 show_user_ticket: false # Show ticket id to user
 autoreply_confirmation: true # Reply with language.confirmationMessage on each incoming message
@@ -24,7 +24,7 @@ signal_number: '+12345689' # Your signal number / account
 web_server: false # Enable/disable web server
 web_server_port: 8080 # Port for web server
 
-dev_mode: true # Enable/disable dev mode
+dev_mode: false # Enable/disable dev mode
 
 # customize your language
 language:
